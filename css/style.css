@@ -1,0 +1,675 @@
+<<<<<<< HEAD
+                                                  /*鎵�鏈�*/
+body{
+    background-image:url('background.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    /*margin: auto;*/
+    /*overflow:auto;*/
+    border:0px;
+    overflow:scroll;
+    overflow-x:hidden;
+    /*overflow-y:hidden;*/
+}
+.logo{
+    /*background-image: url("logo.png");*/
+    background-repeat:no-repeat;
+    /*border-bottom-style: solid;*/
+    /*border-bottom-color: cornflowerblue;*/
+    height: 110px;
+    /*margin: auto;*/
+}
+.denglu {
+    font-size: 20px;
+    color: black;
+    font-family:妤蜂綋;
+    margin:0px 25px 0px 5px;
+}
+.duiqi *{display:inline-block;vertical-align:middle}
+/*瀵艰埅鏉�*/
+a{
+    font-family: "Microsoft YaHei UI";
+    font-size:22px;
+    color:dodgerblue;
+    /*text-color:80px;*/
+}
+.change a:hover{
+    font-family:妤蜂綋;
+    color:indianred;
+    transform-origin: center;
+}
+.top{
+    /* 璁剧疆瀹藉害楂樺害鑳屾櫙棰滆壊 */
+    height: auto; /*楂樺害鏀逛负鑷姩楂樺害*/
+    width:60%;
+    margin-left: 68%;
+    margin-top: 0px;
+    /*background-color: #66bfff;*/
+    /*background-color:lightskyblue;*/
+    /*position: fixed; !*鍥哄畾鍦ㄩ《閮�*!*/
+    top: 0;/*绂婚《閮ㄧ殑璺濈涓�0*/
+    margin-bottom: 1px;
+    z-index: 99999;
+    /*position: fixed;*/
+}
+.top ul{
+    /* 娓呴櫎ul鏍囩鐨勯粯璁ゆ牱寮� */
+    width: auto;/*瀹藉害涔熸敼涓鸿嚜鍔�*/
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    margin-left: 3.5%;
+    /* margin-top: 0;          */
+    padding: 0;
+    font-size: 5px;
+}
+.top li {
+    float:left; /* 浣縧i鍐呭妯悜娴姩锛屽嵆妯悜鎺掑垪  */
+    margin-right:1%;  /* 涓や釜li涔嬮棿鐨勮窛绂�*/
+    position: relative;
+    overflow: hidden;
+    font-size:3px;
+}
+
+.top li a{
+    /* 璁剧疆閾炬帴鍐呭鏄剧ず鐨勬牸寮�*/
+    /*display: block; !* 鎶婇摼鎺ユ樉绀轰负鍧楀厓绱犲彲浣挎暣涓摼鎺ュ尯鍩熷彲鐐瑰嚮 *!*/
+    /*color:white;*/
+    font-family:妤蜂綋;
+    font-size: 18px;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+    /*text-decoration: none; !* 鍘婚櫎涓嬪垝绾� *!*/
+
+}
+.top li a:hover{
+    /* 榧犳爣閫変腑鏃惰儗鏅彉涓洪粦鑹� */
+    /*background-color: darkblue;*/
+    color: indianred;
+}
+.top ul li ul{
+    /* 璁剧疆浜岀骇鑿滃崟 */
+    margin-left: -0.2px;
+    /*background:rgb(189, 181, 181);*/
+    position: fixed;
+    display: none; /* 榛樿闅愯棌浜岀骇鑿滃崟鐨勫唴瀹� */
+
+}
+.top ul li ul li{
+    /* 浜岀骇鑿滃崟li鍐呭鐨勬樉绀� */
+    float:none;
+    text-align: center;
+}
+.top ul li:hover ul{
+    /* 榧犳爣閫変腑浜岀骇鑿滃崟鍐呭鏃� */
+    display: block;
+}
+ * {
+    padding: 0px;
+     margin: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+ }
+
+
+/*閫忔槑妗嗚〃鍗�*/
+.biao{
+    /*width:1000px;*/
+    /*height:600px auto;*/
+    width: 80%;
+    height:auto;
+    /*margin:10px 60px 60px 60px;*/
+    /*margin:auto;*/
+    padding:10px 60px 30px 60px;
+    background-color:rgba(255,255,255,0.75);
+    /*width: 800px;*/
+    /*height:300px;*/
+    margin:10px 60px 30px 60px;
+    /*padding:10px 60px 30px 60px;*/
+    /*background-color: rgba(225,225,225,0.75);*/
+    /*overflow-y:scroll;*/
+    /*overflow-x:hidden;*/
+}
+.dabiaoti{
+    font-weight:bold;
+    font-color:black;
+    font-size:25px;
+}
+
+
+/*鎻愪氦妗�*/
+input[type="submit"]{
+    /*background-color: rgba(108,188,255,1);*/
+    /*border:outset;*/
+    /*padding-left:1em;*/
+    /*width:6em;*/
+    /*height:2.5em;*/
+    /*margin-bottom:1.2em;*/
+    /*font-size: 20px;*/
+    width:140px;
+    height:30px;
+    font-size:16px;
+    /*background-color: #2083ff;*/
+    /*border-color:#2083ff;*/
+    /*background-color:rgba(70,130,180,0.88);*/
+    background-color:rgba(71,139,190,0.88);
+    font-family: 妤蜂綋;
+    border-radius: 7px;
+    color:white;
+    border-width: 0;
+    /*-webkit-tap-highlight-color:rgba(255,0,0,0);*/
+    outline:none;
+}
+input[type="submit"]:hover{
+    background-color:steelblue;
+    cursor: pointer;
+    outline:none;
+    /*-webkit-tap-highlight-color:rgba(255,0,0,0);*/
+}
+
+input[type="text"]{
+    rgba(255,255,255,0.85);
+    border:1px hidden;
+    padding-left:1em;
+    width:15em;
+    height:2em;
+    margin-bottom:1.2em;
+}
+input[type="datetime-local"]{
+rgba(255,255,255,0.85);
+    border:1px hidden;
+    padding-left:1em;
+    width:15em;
+    height:2em;
+    margin-bottom:1.2em;
+}
+/*input[type="text"]{*/
+/*rgba(255,255,255,0.85);*/
+/*  border:1px hidden;*/
+/*  padding-left:1px;*/
+/*  width:15px;*/
+/*  height:2px;*/
+/*  margin-bottom:1.2px;*/
+/*}*/
+/*input[type="datetime-local"]{*/
+/*rgba(255,255,255,0.85);*/
+/*  border:1px hidden;*/
+/*  padding-left:1px;*/
+/*  width:15px;*/
+/*  height:2px;*/
+/*  margin-bottom:1.2px;*/
+/*}*/
+
+
+
+
+                                  /*涓婚〉*/
+.huanying{
+    font-size: 30px;
+    color: #5a91ff;
+    font-family: 妤蜂綋;
+    text-shadow: 1px 2px 5px #a6a6a6;
+    font-weight: bolder;
+    height: 150px;
+    margin-left:120px;
+}
+.main{
+    width: 450px;
+    /* background-color: black;*/
+    padding:0 300px;
+    height: 150px;
+    font-family:妤蜂綋;
+}
+.main-left{
+    width: 150px;
+    height: 150px;
+    /* background-color: #98FF1A;*/
+    float: left;
+    margin-left:-200px;
+    font-size:28px;
+}
+.main-center{
+    /*background-color: #8E8DCC;*/
+    height: 150px;
+    width: 150px;
+    font-size:28px;
+}
+.main-right{
+    width: 150px;
+    height: 150px;
+    /*background-color:#7CC0FF;*/
+    float: right;
+    margin-right: 100px;
+    font-size:28px;
+}
+.lianjie{
+    font-size: 18px;
+    color: darkblue;
+    font-family:妤蜂綋;
+}
+
+
+
+
+                                                 /*鐧诲綍椤�*/
+.box{
+    background-color:rgba(255,255,255,0.75);
+    position: absolute;
+    top:30%;
+    left:60%;
+    height:300px;
+    width:400px;
+    align: center;
+}
+
+                                                  /*鍙戝竷璁插骇椤�*/
+table.fp tbody {
+    display:block;
+    height:120px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch; // 涓轰簡婊氬姩椤虹晠
+}
+
+/*table tbody::-webkit-scrollbar {*/
+/*    display: none; // 闅愯棌婊氬姩鏉�*/
+/*}*/
+
+table.fp thead, tbody.fp tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+table.fp thead {
+    width: calc( 100% - 1em )
+}
+table.fp thead th{ background:#ccc;}
+
+table.mt
+ {
+     width: 600px;
+     margin: 15px 20px 20px 20px;
+     border-top: 1px solid grey;
+     border-spacing: 0px;
+     color: black;
+ }
+table.mt thead tr td,table.mt tbody tr td
+{
+    border-bottom: 0px solid grey;
+    padding: 10px 20px;
+}
+table.mt thead tr td
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+table.mt tbody tr:nth-child(odd)
+{
+    background:lightsteelblue;
+
+}
+
+                                          /*璁插骇璇︽儏椤�*/
+.biao1
+{
+    width: 35%;
+    height:40%;
+    /*margin:0px 60px 60px 60px;*/
+    /*margin: auto;*/
+    margin-left: 0%;
+    margin-bottom: 10%;
+    padding:30px 60px 30px 60px;
+    /*background-color:rgba(255,255,255,0.75);*/
+}
+.biao2
+{
+    width: 35%;
+    height:40%;
+    /*margin:0px 60px 60px 60px;*/
+    /*margin: auto;*/
+    margin-left:50%;
+    margin-top: -53%;
+    padding:30px 60px 30px 60px;
+    /*background-color:rgba(255,255,255,0.75);*/
+}
+=======
+                                                  /*鎵�鏈�*/
+body{
+    background-image:url('background.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    /*margin: auto;*/
+    /*overflow:auto;*/
+    border:0px;
+    overflow:scroll;
+    overflow-x:hidden;
+    /*overflow-y:hidden;*/
+}
+.logo{
+    /*background-image: url("logo.png");*/
+    background-repeat:no-repeat;
+    /*border-bottom-style: solid;*/
+    /*border-bottom-color: cornflowerblue;*/
+    height: 110px;
+    /*margin: auto;*/
+}
+.denglu {
+    font-size: 20px;
+    color: black;
+    font-family:妤蜂綋;
+    margin:0px 25px 0px 5px;
+}
+.duiqi *{display:inline-block;vertical-align:middle}
+/*瀵艰埅鏉�*/
+a{
+    font-family: "Microsoft YaHei UI";
+    font-size:22px;
+    color:dodgerblue;
+    /*text-color:80px;*/
+}
+.change a:hover{
+    font-family:妤蜂綋;
+    color:indianred;
+    transform-origin: center;
+}
+.top{
+    /* 璁剧疆瀹藉害楂樺害鑳屾櫙棰滆壊 */
+    height: auto; /*楂樺害鏀逛负鑷姩楂樺害*/
+    width:60%;
+    margin-left: 68%;
+    margin-top: 0px;
+    /*background-color: #66bfff;*/
+    /*background-color:lightskyblue;*/
+    /*position: fixed; !*鍥哄畾鍦ㄩ《閮�*!*/
+    top: 0;/*绂婚《閮ㄧ殑璺濈涓�0*/
+    margin-bottom: 1px;
+    z-index: 99999;
+    /*position: fixed;*/
+}
+.top ul{
+    /* 娓呴櫎ul鏍囩鐨勯粯璁ゆ牱寮� */
+    width: auto;/*瀹藉害涔熸敼涓鸿嚜鍔�*/
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    margin-left: 3.5%;
+    /* margin-top: 0;          */
+    padding: 0;
+    font-size: 5px;
+}
+.top li {
+    float:left; /* 浣縧i鍐呭妯悜娴姩锛屽嵆妯悜鎺掑垪  */
+    margin-right:1%;  /* 涓や釜li涔嬮棿鐨勮窛绂�*/
+    position: relative;
+    overflow: hidden;
+    font-size:3px;
+}
+
+.top li a{
+    /* 璁剧疆閾炬帴鍐呭鏄剧ず鐨勬牸寮�*/
+    /*display: block; !* 鎶婇摼鎺ユ樉绀轰负鍧楀厓绱犲彲浣挎暣涓摼鎺ュ尯鍩熷彲鐐瑰嚮 *!*/
+    /*color:white;*/
+    font-family:妤蜂綋;
+    font-size: 18px;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+    /*text-decoration: none; !* 鍘婚櫎涓嬪垝绾� *!*/
+
+}
+.top li a:hover{
+    /* 榧犳爣閫変腑鏃惰儗鏅彉涓洪粦鑹� */
+    /*background-color: darkblue;*/
+    color: indianred;
+}
+.top ul li ul{
+    /* 璁剧疆浜岀骇鑿滃崟 */
+    margin-left: -0.2px;
+    /*background:rgb(189, 181, 181);*/
+    position: fixed;
+    display: none; /* 榛樿闅愯棌浜岀骇鑿滃崟鐨勫唴瀹� */
+
+}
+.top ul li ul li{
+    /* 浜岀骇鑿滃崟li鍐呭鐨勬樉绀� */
+    float:none;
+    text-align: center;
+}
+.top ul li:hover ul{
+    /* 榧犳爣閫変腑浜岀骇鑿滃崟鍐呭鏃� */
+    display: block;
+}
+ * {
+    padding: 0px;
+     margin: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+ }
+
+
+/*閫忔槑妗嗚〃鍗�*/
+.biao{
+    /*width:1000px;*/
+    /*height:600px auto;*/
+    width: 80%;
+    height:auto;
+    /*margin:10px 60px 60px 60px;*/
+    /*margin:auto;*/
+    padding:10px 60px 30px 60px;
+    background-color:rgba(255,255,255,0.75);
+    /*width: 800px;*/
+    /*height:300px;*/
+    margin:10px 60px 30px 60px;
+    /*padding:10px 60px 30px 60px;*/
+    /*background-color: rgba(225,225,225,0.75);*/
+    /*overflow-y:scroll;*/
+    /*overflow-x:hidden;*/
+}
+.dabiaoti{
+    font-weight:bold;
+    font-color:black;
+    font-size:25px;
+}
+
+
+/*鎻愪氦妗�*/
+input[type="submit"]{
+    /*background-color: rgba(108,188,255,1);*/
+    /*border:outset;*/
+    /*padding-left:1em;*/
+    /*width:6em;*/
+    /*height:2.5em;*/
+    /*margin-bottom:1.2em;*/
+    /*font-size: 20px;*/
+    width:140px;
+    height:30px;
+    font-size:16px;
+    /*background-color: #2083ff;*/
+    /*border-color:#2083ff;*/
+    /*background-color:rgba(70,130,180,0.88);*/
+    background-color:rgba(71,139,190,0.88);
+    font-family: 妤蜂綋;
+    border-radius: 7px;
+    color:white;
+    border-width: 0;
+    /*-webkit-tap-highlight-color:rgba(255,0,0,0);*/
+    outline:none;
+}
+input[type="submit"]:hover{
+    background-color:steelblue;
+    cursor: pointer;
+    outline:none;
+    /*-webkit-tap-highlight-color:rgba(255,0,0,0);*/
+}
+
+input[type="text"]{
+    rgba(255,255,255,0.85);
+    border:1px hidden;
+    padding-left:1em;
+    width:15em;
+    height:2em;
+    margin-bottom:1.2em;
+}
+input[type="datetime-local"]{
+rgba(255,255,255,0.85);
+    border:1px hidden;
+    padding-left:1em;
+    width:15em;
+    height:2em;
+    margin-bottom:1.2em;
+}
+/*input[type="text"]{*/
+/*rgba(255,255,255,0.85);*/
+/*  border:1px hidden;*/
+/*  padding-left:1px;*/
+/*  width:15px;*/
+/*  height:2px;*/
+/*  margin-bottom:1.2px;*/
+/*}*/
+/*input[type="datetime-local"]{*/
+/*rgba(255,255,255,0.85);*/
+/*  border:1px hidden;*/
+/*  padding-left:1px;*/
+/*  width:15px;*/
+/*  height:2px;*/
+/*  margin-bottom:1.2px;*/
+/*}*/
+
+
+
+
+                                  /*涓婚〉*/
+.huanying{
+    font-size: 30px;
+    color: #5a91ff;
+    font-family: 妤蜂綋;
+    text-shadow: 1px 2px 5px #a6a6a6;
+    font-weight: bolder;
+    height: 150px;
+    margin-left:120px;
+}
+.main{
+    width: 450px;
+    /* background-color: black;*/
+    padding:0 300px;
+    height: 150px;
+    font-family:妤蜂綋;
+}
+.main-left{
+    width: 150px;
+    height: 150px;
+    /* background-color: #98FF1A;*/
+    float: left;
+    margin-left:-200px;
+    font-size:28px;
+}
+.main-center{
+    /*background-color: #8E8DCC;*/
+    height: 150px;
+    width: 150px;
+    font-size:28px;
+}
+.main-right{
+    width: 150px;
+    height: 150px;
+    /*background-color:#7CC0FF;*/
+    float: right;
+    margin-right: 100px;
+    font-size:28px;
+}
+.lianjie{
+    font-size: 18px;
+    color: darkblue;
+    font-family:妤蜂綋;
+}
+
+
+
+
+                                                 /*鐧诲綍椤�*/
+.box{
+    background-color:rgba(255,255,255,0.75);
+    position: absolute;
+    top:30%;
+    left:60%;
+    height:300px;
+    width:400px;
+    align: center;
+}
+
+                                                  /*鍙戝竷璁插骇椤�*/
+table.fp tbody {
+    display:block;
+    height:120px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch; // 涓轰簡婊氬姩椤虹晠
+}
+
+/*table tbody::-webkit-scrollbar {*/
+/*    display: none; // 闅愯棌婊氬姩鏉�*/
+/*}*/
+
+table.fp thead, tbody.fp tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+table.fp thead {
+    width: calc( 100% - 1em )
+}
+table.fp thead th{ background:#ccc;}
+
+table.mt
+ {
+     width: 600px;
+     margin: 15px 20px 20px 20px;
+     border-top: 1px solid grey;
+     border-spacing: 0px;
+     color: black;
+ }
+table.mt thead tr td,table.mt tbody tr td
+{
+    border-bottom: 0px solid grey;
+    padding: 10px 20px;
+}
+table.mt thead tr td
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+table.mt tbody tr:nth-child(odd)
+{
+    background:lightsteelblue;
+
+}
+
+                                          /*璁插骇璇︽儏椤�*/
+.biao1
+{
+    width: 35%;
+    height:40%;
+    /*margin:0px 60px 60px 60px;*/
+    /*margin: auto;*/
+    margin-left: 0%;
+    margin-bottom: 10%;
+    padding:30px 60px 30px 60px;
+    /*background-color:rgba(255,255,255,0.75);*/
+}
+.biao2
+{
+    width: 35%;
+    height:40%;
+    /*margin:0px 60px 60px 60px;*/
+    /*margin: auto;*/
+    margin-left:50%;
+    margin-top: -53%;
+    padding:30px 60px 30px 60px;
+    /*background-color:rgba(255,255,255,0.75);*/
+}
+>>>>>>> f1b03ff... 提交文件
